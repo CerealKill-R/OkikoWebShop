@@ -5,9 +5,16 @@
  */
 
 $(document).ready(function() {
- //launch nivoslider & featherlight
-  $('.section-slider').nivoSlider();
-  $('.gallery').featherlightGallery();
+ //launch owl & featherlight
+  $('.section-slider, .section-slider-small').owlCarousel({
+      items : 1,
+      loop: true,
+      nav: true,
+     //navRewind: true,
+     dots : true
+     // navText :	["prev","next"]
+  });
+  $('.gallery, .gallery2').featherlightGallery();
   //hide all the section contents
   $('.section-content').hide();
   

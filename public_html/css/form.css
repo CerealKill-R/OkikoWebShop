@@ -1,0 +1,23 @@
+/* 
+    Created on : 29-oct.-2014, 20:11:27
+    Author     : Julien
+*/
+html, body {
+height: 100%;
+font-family: 'Avenir-Medium', Arial, Verdana;
+}
+
+button,
+input,
+select,
+textarea {
+    margin-bottom: 5px;
+    color: #222;
+	
+}
+
+label {
+    width:90px;
+    display:inline-block;
+    text-align: right;
+}

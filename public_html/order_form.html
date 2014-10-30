@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>OKIKO ORDER FORM</title>
+        <link rel="stylesheet" href="css/form.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div id="form">
+             <form name="contactForm" id="contactForm" action="" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" name="name" id="name" placeholder="Nom"/>
+                <span class="required">*</span><br/>
+                <label for="surname">Pr&eacute;nom :</label>
+                <input type="text" name="surname" id="surname"  placeholder="Pr&eacute;nom"/>
+                <span class="required">*</span><br/>
+                <label for="email">Email :</label>
+                <input type="text" name="email" id="email"  placeholder="Email"/>
+                <span class="required">*</span><br/>
+                <label for="subject">Sujet :</label>
+                <input type="text" name="subject" id="subject"  placeholder="Sujet"/>
+                <span class="required">*</span><br/>
+                <label for="about">Message :</label><br/>
+                <textarea name="about" id="about" placeholder="Message"></textarea><br/>
+
+                <input type="submit" value="Envoyer" class="send" />
+                <p id="msg"></p>
+            </form>  
+        </div>
+      <script src="js/ajaxPost.js"></script>
+    </body>
+</html>
